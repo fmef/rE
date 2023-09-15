@@ -1,0 +1,18 @@
+
+# Ask to be released as subject of any type (overlord must accept). Hurts relations and sets a 10 year truce.
+action_ask_to_be_released_subject = {
+	icon = "GFX_diplomacy_status_has_vassal"
+	requires_actor_independence = no
+	diplo_view_acceptance_icon = yes
+	should_notify_all_communications = yes
+	AI_acceptance_base_value = -5
+	action_type = neutral
+
+	ai_acceptance = {
+		modifier = {
+			add = -100
+			has_origin = origin_slavers
+			desc = personality_decadent_capitalists
+		}
+	}
+}
