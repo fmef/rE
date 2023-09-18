@@ -36,7 +36,7 @@ my_robotic_army = {
 	}
 
 	ai_weight = {
-		base = 100
+		base = 0
 		modifier = {
 			set = 0
 			OR = {
