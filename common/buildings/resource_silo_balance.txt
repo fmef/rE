@@ -76,7 +76,7 @@ building_resource_silo = {
 				has_technology = tech_construction_templates
 			}
 		}
-		country_resource_max_add = 195000
+		country_resource_max_add = 995000
 	}
 
 	prerequisites = {
