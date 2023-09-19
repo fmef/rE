@@ -1,12 +1,12 @@
 NGameplay = {
 	PLANET_COMBAT_WIDTH_FROM_SIZE			= 2 # Extra combat width per tile
-
-	EMPIRE_SIZE_BASE						= 100 	# No modifiers at this empire size or below
-	EMPIRE_SIZE_FROM_DISTRICTS				= 0.25	# Per district
-	EMPIRE_SIZE_FROM_SYSTEMS				= 0.5		# Per system
-	EMPIRE_SIZE_FROM_COLONIES				= 2	# Per planet
-	EMPIRE_SIZE_FROM_BRANCH_OFFICES			= 1		# Per branch office
-	EMPIRE_SIZE_FROM_POPS					= 0.5		# Per pop
+# 暂时不用
+#	EMPIRE_SIZE_BASE						= 100 	# No modifiers at this empire size or below
+#	EMPIRE_SIZE_FROM_DISTRICTS				= 0.25	# Per district
+#	EMPIRE_SIZE_FROM_SYSTEMS				= 0.5		# Per system
+#	EMPIRE_SIZE_FROM_COLONIES				= 2	# Per planet
+#	EMPIRE_SIZE_FROM_BRANCH_OFFICES			= 1		# Per branch office
+#	EMPIRE_SIZE_FROM_POPS					= 0.5		# Per pop
 }
 NEconomy = {
 	PIRACY_FULL_GROWTH_DAYS_COUNT		= 108000		# time it takes piracy to grow to full value without it being suppressed
