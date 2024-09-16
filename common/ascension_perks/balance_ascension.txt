@@ -1,0 +1,35 @@
+ap_shared_destiny = {
+	on_enabled = {
+		hidden_effect = {
+			country_event = { id = action.446 }
+		}
+	}
+
+	modifier = {
+		divided_patrongage_max_subjects = 21
+		envoys_add = 2
+	}
+
+	potential = {
+		NOR = {
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+			has_valid_civic = civic_inwards_perfection
+			has_valid_civic = civic_machine_terminator
+		}
+		NOT = {
+			has_ascension_perk = ap_shared_destiny
+		}
+	}
+
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 0
+			subjects < 2
+			count_envoy = {
+				count < 3
+			}
+		}
+	}
+}

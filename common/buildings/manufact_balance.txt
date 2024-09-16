@@ -1,0 +1,105 @@
+building_refinery = {
+	base_buildtime = @b2_time
+
+	exempt_from_ai_planet_specialization = no
+	category = manufacturing
+
+	potential = {
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+			has_modifier = crucible_colony
+		}
+	}
+
+	inline_script = {
+		script = jobs/refiner_add
+		AMOUNT = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 3
+		}
+	}
+
+	prerequisites = {
+		"tech_exotic_gases"
+	}
+}
+
+building_chemical_plant = {
+	base_buildtime = @b2_time
+
+	exempt_from_ai_planet_specialization = no
+	category = manufacturing
+
+	potential = {
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+			has_modifier = crucible_colony
+		}
+	}
+
+	inline_script = {
+		script = jobs/chemist_add
+		AMOUNT = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b2_minerals
+		}
+		upkeep = {
+			energy = 3
+		}
+	}
+
+	prerequisites = {
+		"tech_volatile_motes"
+	}
+}
+
+building_crystal_plant = {
+	base_buildtime = @b2_time
+
+	exempt_from_ai_planet_specialization = no
+	category = manufacturing
+
+	potential = {
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+			has_modifier = crucible_colony
+		}
+	}
+
+	inline_script = {
+		script = jobs/translucer_add
+		AMOUNT = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b2_minerals
+		}
+		upkeep = {
+			energy = 3
+		}
+	}
+
+	prerequisites = {
+		"tech_rare_crystals"
+	}
+
+	upgrades = {
+		"building_crystal_plant_2"
+	}
+}
