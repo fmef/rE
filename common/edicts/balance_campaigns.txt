@@ -1,0 +1,68 @@
+terraforming_gas = {
+	length = @EdictDuration
+	icon = "GFX_edict_type_time"
+	resources = {
+		category = rare_edicts
+		cost = {
+			exotic_gases = 3
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			exotic_gases = 3
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	modifier = {
+		terraform_speed_mult = 9
+	}
+
+	prerequisites = {
+		"tech_terrestrial_sculpting"
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = @EdictHighPrio
+			any_planet_within_border = {
+				is_terraforming = yes
+			}
+		}
+	}
+}
+
+living_metal_construction = {
+	length = @EdictDuration
+	icon = "GFX_edict_type_time"
+	resources = {
+		category = rare_edicts
+		cost = {
+			sr_living_metal = 3
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			sr_living_metal = 3
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	modifier = {
+		megastructure_build_speed_mult = 9
+	}
+
+	potential = {
+		has_resource = { type = sr_living_metal amount > 0 }
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = @EdictHighPrio
+			count_owned_megastructure = {
+				count >= 1
+				limit = { is_upgrading = yes }
+			}
+		}
+	}
+}
