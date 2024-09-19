@@ -1,0 +1,5 @@
+
+# Planet Variables
+
+
+@habitable_planet_min_size = 18
