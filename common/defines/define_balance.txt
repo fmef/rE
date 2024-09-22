@@ -3,11 +3,16 @@ NGameplay = {
 #	JUMP_DRIVE_COOLDOWN = 50
 # 暂时不用
 #	EMPIRE_SIZE_BASE						= 100 	# No modifiers at this empire size or below
-#EMPIRE_SIZE_FROM_DISTRICTS				= 0.05	# Per district
-#EMPIRE_SIZE_FROM_SYSTEMS				= 0.1		# Per system
+EMPIRE_SIZE_FROM_DISTRICTS				= 0.05	# Per district
+EMPIRE_SIZE_FROM_SYSTEMS				= 0		# Per system
 #EMPIRE_SIZE_FROM_COLONIES				= 1	# Per planet
 #EMPIRE_SIZE_FROM_BRANCH_OFFICES			= 0.2		# Per branch office
 #EMPIRE_SIZE_FROM_POPS					= 0.1		# Per pop
+
+ASCENSION_PERKS_SLOTS		= 16
+TRADITION_CATEGORIES_MAX	= 15
+
+ASTRAL_JUMP_COOLDOWN = 90
 
 SUBJECT_TYPE_CONVERSION_SPRAWL_FACTOR = 500				# Conversion speed is affected by this÷EmpireSprawl
 
