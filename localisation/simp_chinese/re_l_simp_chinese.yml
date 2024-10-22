@@ -1,5 +1,7 @@
 ﻿l_simp_chinese:
 
- my_robotic_army:0 "真机器人"
- my_robotic_army_desc:0 "更强的机器人部队"
-
+my_robotic_army:0 "真机器人"
+my_robotic_army_desc:0 "更强的机器人部队"
+artifact_trade_dark_matter: "交换文物"
+artifact_trade_dark_matter_desc: "用文物交换暗物质。"
+artifact_trade_cooldown: "$artifact_trade_dark_matter$冷却"

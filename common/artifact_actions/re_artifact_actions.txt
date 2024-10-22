@@ -1,0 +1,26 @@
+artifact_trade_dark_matter = {
+	resources = {
+		category = artifact_actions
+		cost = {
+			minor_artifacts = 1500
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+	potential = {
+		has_technology = tech_mine_dark_matter
+	}
+	effect = {
+		add_resource = { sr_dark_matter = 500 }
+		hidden_effect = {
+			add_modifier = {
+				modifier = "artifact_trade_cooldown"
+				days = 180
+			}
+		}
+	}
+	allow = {
+		NOT = { has_modifier = artifact_trade_cooldown }
+	}
+}
