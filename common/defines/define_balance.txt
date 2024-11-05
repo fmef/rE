@@ -1,25 +1,25 @@
 NGameplay = {
-	PLANET_COMBAT_WIDTH_FROM_SIZE			= 2 # Extra combat width per tile
+PLANET_COMBAT_WIDTH_FROM_SIZE			= 1 # Extra combat width per tile
 #	JUMP_DRIVE_COOLDOWN = 50
 # 暂时不用
 #	EMPIRE_SIZE_BASE						= 100 	# No modifiers at this empire size or below
-EMPIRE_SIZE_FROM_DISTRICTS				= 0.05	# Per district
-EMPIRE_SIZE_FROM_SYSTEMS				= 0		# Per system
+#EMPIRE_SIZE_FROM_DISTRICTS				= 0.05	# Per district
+#EMPIRE_SIZE_FROM_SYSTEMS				= 1		# Per system
 #EMPIRE_SIZE_FROM_COLONIES				= 1	# Per planet
 #EMPIRE_SIZE_FROM_BRANCH_OFFICES			= 0.2		# Per branch office
 #EMPIRE_SIZE_FROM_POPS					= 0.1		# Per pop
 
-ASCENSION_PERKS_SLOTS		= 16
-TRADITION_CATEGORIES_MAX	= 15
+ASCENSION_PERKS_SLOTS		= 32
+TRADITION_CATEGORIES_MAX	= 23
 
 ASTRAL_JUMP_COOLDOWN = 90
 
 SUBJECT_TYPE_CONVERSION_SPRAWL_FACTOR = 500				# Conversion speed is affected by this÷EmpireSprawl
 
-EMPIRE_SIZE_TECH_COST_PENALTY			= 0.00001	# Per empire size above base
-EMPIRE_SIZE_TRADITION_COST_PENALTY		= 0.00002	# Per empire size above base
-EMPIRE_SIZE_COUNCIL_AGENDA_COST_PENALTY = 0.0001 # Per empire size above base
-EMPIRE_SIZE_ARMIES_PENALTY				= 0.0001 # Per empire size above base
+#EMPIRE_SIZE_TECH_COST_PENALTY			= 0.00001	# Per empire size above base
+#EMPIRE_SIZE_TRADITION_COST_PENALTY		= 0.00002	# Per empire size above base
+#EMPIRE_SIZE_COUNCIL_AGENDA_COST_PENALTY = 0.0001 # Per empire size above base
+#EMPIRE_SIZE_ARMIES_PENALTY				= 0.0001 # Per empire size above base
 }
 NEconomy = {
 	PIRACY_FULL_GROWTH_DAYS_COUNT		= 108000		# time it takes piracy to grow to full value without it being suppressed
@@ -29,4 +29,5 @@ NAI = {
 		VASSALIZATION_ACCEPTANCE_OVERLORD = -5
 		VASSALIZATION_ACCEPTANCE_DISTANCE_MULT = -0.05
 		VASSALIZATION_ACCEPTANCE_NUM_POPS = -0.025
+        FEDERATION_CONQUEROR_DIFFERENCE = -3	# penalty if one side wants to wage wars of conquest and the other doesn't
 }

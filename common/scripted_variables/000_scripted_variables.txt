@@ -1,5 +1,4 @@
-
-# Planet Variables
-
+# PLANET VARIABLES
 
 @habitable_planet_min_size = 18
+

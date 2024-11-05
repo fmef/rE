@@ -1,0 +1,41 @@
+reduce_empire_size1 = {
+length = -1
+icon = "GFX_FX_influence_edicts"
+
+potential = {
+	is_ai = no
+}
+resources = {
+	category = edicts
+	cost = {
+		influence = 10
+	}
+	upkeep = {
+		influence = 10
+	}
+}
+modifier = {
+	empire_size_mult = -0.3
+}
+}
+
+reduce_empire_size2 = {
+length = -1
+icon = "GFX_FX_influence_edicts"
+	
+potential = {
+	is_ai = no
+}
+resources = {
+	category = edicts
+	cost = {
+		influence = 20
+	}
+	upkeep = {
+		influence = 20
+	}
+}
+modifier = {
+	empire_size_mult = -0.5
+}
+}
