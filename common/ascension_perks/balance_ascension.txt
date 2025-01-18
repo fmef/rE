@@ -33,3 +33,50 @@ ap_shared_destiny = {
 		}
 	}
 }
+
+ap_more_speed = {
+	modifier = {
+		ship_speed_mult = 7.0
+		ship_interstellar_speed_mult = 4.0
+	}
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_more_speed
+		}
+	}
+}
+
+ap_size_ctrl = {
+	modifier = {
+		empire_size_pops_mult = -0.35
+	}
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_size_ctrl
+		}
+	}
+}
+
+ap_naval_cap = {
+	modifier = {
+		country_naval_cap_add = 200
+	}
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_naval_cap
+		}
+	}
+}
+
+ap_refinery = {
+	modifier = {
+		planet_jobs_exotic_gases_produces_mult = 0.5
+		planet_jobs_rare_crystals_produces_mult = 0.5
+		planet_jobs_volatile_motes_produces_mult = 0.5
+	}
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_refinery
+		}
+	}
+}

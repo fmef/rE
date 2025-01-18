@@ -1,3 +1,4 @@
+@EdictDuration = -1
 terraforming_gas = {
 	length = @EdictDuration
 	icon = "GFX_edict_type_time"

@@ -15,7 +15,8 @@ resources = {
 	}
 }
 modifier = {
-	empire_size_mult = -0.3
+	empire_size_add = -75
+	planet_army_build_speed_mult = 9
 }
 }
 
@@ -36,6 +37,26 @@ resources = {
 	}
 }
 modifier = {
-	empire_size_mult = -0.5
+	empire_size_add = -150
+	planet_army_build_speed_mult = 99
 }
+}
+r_add_empire_size = {
+	length = -1
+	icon = "GFX_edict_type_policy"
+	potential = {
+		is_ai = no
+	}
+	resources = {
+		category = edicts
+		cost = {
+			sr_dark_matter = 100
+		}
+		upkeep = {
+			sr_dark_matter = 100
+		}
+	}
+	modifier = {
+		empire_size_add = -400
+	}
 }

@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FX_influence_edicts"
+		textureFile = "gfx/interface/icons/edict_FX_influence.dds"
+	}
+	spriteType = {
+		name = "GFX_ap_more_speed"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_more_speed.dds"
+		#alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_ap_naval_cap"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_naval_cap.dds"
+		#alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_ap_size_ctrl"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_size_ctrl.dds"
+		#alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_ap_refinery"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_refinery.dds"
+	}
+}
+
+
